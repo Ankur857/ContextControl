@@ -24,6 +24,12 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 
+# Local SQLite & Upload Storage
+backend/storage/
+*.db
+*.sqlite
+*.sqlite3
+
 # Environment Variables (Keep examples safe, ignore secrets)
 .env
 .env*.local
